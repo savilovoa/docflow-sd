@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9ad2b976-4a24-4663-b4ec-293222c51411" extendedConfigurationObject="bf6fa004-f476-461c-ab43-c530695f1e34">
+  <producedTypes>
+    <objectType typeId="1bdd089e-fddd-4e3c-916e-7aa703e6133a" valueTypeId="6625f02d-ef92-4720-b387-3515e4fed241"/>
+    <refType typeId="a5528905-249c-4e10-abc6-54d28ba35438" valueTypeId="641a6539-eb64-47a6-8b6d-cf260369ddc6"/>
+    <selectionType typeId="c5393d1c-a44c-4343-a102-c8cc6605cf79" valueTypeId="e9b6c978-3aca-44b9-a08d-0c995a660c03"/>
+    <listType typeId="3915beee-6013-4aae-82b2-77d9cde2ff9e" valueTypeId="53150c64-97cf-406b-a70e-3ffd0eabf18c"/>
+    <managerType typeId="edef690c-be1b-4170-8cb7-0c7b658d676e" valueTypeId="4da4bad4-123d-4ec1-ba67-933c1482c613"/>
+    <routePointRef typeId="94c6bc03-d49a-49b7-ad8e-5391bb2c740e" valueTypeId="e2ba6c08-5641-4e21-9d96-cbeb75a2cb83"/>
+  </producedTypes>
+  <name>СД_Процесс</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BusinessProcessExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="cde5ddd4-12d4-429a-b1a1-b43639672fa1" extendedConfigurationObject="dcfe493b-3ff8-44e2-8450-ec596bc6f4d9">
+    <name>ФормаЗадачиИсполнителя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:BusinessProcess>

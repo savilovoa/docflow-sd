@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3369944b-4d94-4f19-a5f4-19fd7e9acbd9" extendedConfigurationObject="cc3a6c10-fea4-414d-b525-4df94f5488fb">
+  <producedTypes>
+    <objectType typeId="b7d502fa-84e1-48e6-a58d-18c43e3517e2" valueTypeId="64041752-febb-4fe5-b69f-0f4866615781"/>
+    <refType typeId="5e35da5a-2bac-423c-9d93-d75adec2ae1c" valueTypeId="0178eee4-7d13-41aa-8a80-b946e3228f20"/>
+    <selectionType typeId="93cdadd0-c993-4106-809e-8679afef6212" valueTypeId="2d834033-1c3b-4a56-bfdf-db2b6d98b3d8"/>
+    <listType typeId="23a7067e-256e-45cc-87d7-1d027f5c9aa7" valueTypeId="380951cb-e4c0-4038-b978-39c66dcd4f73"/>
+    <managerType typeId="85a58b6d-ae19-42d5-9a62-e354788c6180" valueTypeId="50cb80ba-12d3-44dc-823c-6b03246f376b"/>
+  </producedTypes>
+  <name>СД_ВидыЗаявок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

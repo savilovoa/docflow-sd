@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ad91c3fc-c9d3-483c-af81-ba6be13fa944" extendedConfigurationObject="1b04f04d-d3ab-4126-b139-cf6f1f7de202">
+  <producedTypes>
+    <objectType typeId="e3f39ba3-bc65-4892-92bc-708b641f6766" valueTypeId="141c7b80-97b8-439d-8cab-7d47574fa324"/>
+    <refType typeId="1c0c2ad3-b958-41c3-a54e-0fb7a5370d3f" valueTypeId="d2bfa9e3-1967-4567-8ac9-dd937dc130aa"/>
+    <selectionType typeId="18c44104-48b8-4470-915e-7e64366dc6e5" valueTypeId="3a1fbc0c-b4b3-4288-a9a2-a1dd64af8457"/>
+    <listType typeId="abe43655-0fa9-407c-9ac2-148e220ef85a" valueTypeId="02ff9e9f-86c3-4f06-867f-70edf709f942"/>
+    <managerType typeId="526fbe49-264b-461b-9d95-332d6219c2d5" valueTypeId="878c6623-890b-4e3c-aeba-ac6280d4d959"/>
+  </producedTypes>
+  <name>АдресатыПочтовыхСообщений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="6521ab01-98ec-4539-b007-912c5b983810" extendedConfigurationObject="30352480-d26b-4e9b-8052-c155cf72d86a">
+    <name>Адрес</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+</mdclass:Catalog>

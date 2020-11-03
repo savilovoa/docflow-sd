@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f1d819de-e04f-43be-9aab-a9a697dcfe3d" extendedConfigurationObject="78230bc6-34e8-42de-9708-db0f48ba87be">
+  <producedTypes>
+    <selectionType typeId="8dde961c-bcc1-44df-95b0-1d4709629fd2" valueTypeId="0eb52cda-a7c0-4ed7-8c21-f21511fec63c"/>
+    <listType typeId="9d76c8d2-4659-4424-979d-955a4d7195c9" valueTypeId="44e9289c-290c-49d2-81dd-e7d579e42c13"/>
+    <managerType typeId="16061a42-64b2-4ea5-91c3-4f355abe4559" valueTypeId="b15170d3-6759-4630-8300-ec362ee11603"/>
+    <recordSetType typeId="44ee3537-3eee-40ec-8b2e-4311ccf6de9d" valueTypeId="1bb791bf-d151-4b3e-9b1a-d9f2fe209a2e"/>
+    <recordKeyType typeId="ce2dccef-d753-49b0-b53e-dc4ede838fb1" valueTypeId="8e6d2887-c7e2-406c-b278-2616b6ed659a"/>
+    <recordType typeId="3b23bacc-ea2b-46c1-82aa-c083bbf967a3" valueTypeId="27112936-de1f-4bcb-a7a6-b6d41ba1cdc3"/>
+    <recordManagerType typeId="ebab0e01-5816-404c-bd2d-42de08e58639" valueTypeId="d540adb2-5ee5-4cea-85d2-3945963e469b"/>
+  </producedTypes>
+  <name>ОчередьУведомлений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

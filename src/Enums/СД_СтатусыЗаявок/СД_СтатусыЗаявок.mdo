@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4ad124f5-7bd8-4c8a-8c7f-504834c9611a" extendedConfigurationObject="fa383933-9934-4bdb-acf3-26c3446dfa9c">
+  <producedTypes>
+    <refType typeId="180cf819-4b76-405a-9fb1-322d70c65efb" valueTypeId="a0b74bc8-45d8-456a-895e-a8f56392c7f3"/>
+    <listType typeId="55e0e921-b954-47e9-91a6-59a491184a49" valueTypeId="a68ce991-2e2f-4a07-8f57-873e9c6e4f39"/>
+    <managerType typeId="39e75e2a-5d4b-41a6-a962-c5ea46490c01" valueTypeId="4270444a-8d5c-4094-8eba-d05693c073ef"/>
+  </producedTypes>
+  <name>СД_СтатусыЗаявок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="63e19b7b-e179-499f-864c-1f453be7bb71" extendedConfigurationObject="3157dd06-af9a-4834-8c77-623a69d02353">
+    <name>Закрыта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

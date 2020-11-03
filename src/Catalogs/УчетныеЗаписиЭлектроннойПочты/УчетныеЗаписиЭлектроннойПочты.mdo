@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="67ece7aa-4dcb-41c0-9f27-063204d33d54" extendedConfigurationObject="6b2340d7-687f-43a3-8eb8-8ddb86712466">
+  <producedTypes>
+    <objectType typeId="7a3b5523-bfea-4616-8d2f-45d19fb1beb6" valueTypeId="015e4a61-1ce5-48dc-ba42-a4225b905007"/>
+    <refType typeId="862223f0-0c32-4497-af4b-942b65031d86" valueTypeId="802b51d3-e91d-40d1-a0df-cc7b4206a45c"/>
+    <selectionType typeId="b2556845-4ce5-4a8c-bc44-2d70c074818c" valueTypeId="430f4afb-a0d2-4db8-9915-36d5ab626a70"/>
+    <listType typeId="801087a7-ca76-4170-8ddc-5ace3d0ba8fb" valueTypeId="18c5b814-dad8-42ff-b3c3-e22afa7598d0"/>
+    <managerType typeId="2e5ca4c3-1e99-45fa-918d-20e4f4f61b0a" valueTypeId="b19aeb59-d2de-4d24-b901-3c60506b24e7"/>
+  </producedTypes>
+  <name>УчетныеЗаписиЭлектроннойПочты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

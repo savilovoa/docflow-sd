@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="954cc379-89b8-43cb-830a-bca449586eb7" extendedConfigurationObject="bcf8c904-2bd0-4b0f-90ef-685c83195a5d">
+  <producedTypes>
+    <objectType typeId="2a9a2d99-20ff-4eb0-aef5-b88bdd4f56f6" valueTypeId="5d82bb46-61f8-4550-87c4-bb64a21da0f8"/>
+    <refType typeId="965f8d32-7819-4e24-9779-b9dcdbd40fd4" valueTypeId="c0e755d1-b19a-43c4-bc4d-0a36131813b1"/>
+    <selectionType typeId="0593cc36-e6c8-4b8e-ba52-98c72917d47a" valueTypeId="01e0d659-4c32-46f5-b148-7b11dc94e3d0"/>
+    <listType typeId="82a3b053-41a1-4843-bfc5-78e3478a848e" valueTypeId="43004351-c13b-43c4-9364-9a489bc4023f"/>
+    <managerType typeId="2944841f-afd8-42bd-9013-887f5bb9d791" valueTypeId="229a7edd-b8a6-4563-857e-543596a68186"/>
+  </producedTypes>
+  <name>СД_ШаблоныПисем</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

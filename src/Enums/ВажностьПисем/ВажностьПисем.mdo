@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="73124d73-622a-41e9-b6a4-4dbe5eb0c7f5" extendedConfigurationObject="9f763d21-415f-409d-a168-74867b2d92aa">
+  <producedTypes>
+    <refType typeId="ee0890d6-4d7a-47cf-b1fd-5e833b7b9b6d" valueTypeId="85a11d3d-f304-444b-b30e-8c86c80ea2aa"/>
+    <listType typeId="9cd4d6aa-fde7-455b-862b-c233d0842128" valueTypeId="fe888a47-7436-4013-a031-d70642bb62ce"/>
+    <managerType typeId="04eada12-a9ad-445e-b5f3-b63e2bc1aa6b" valueTypeId="9069045f-42be-4edc-b3ce-d1859719403b"/>
+  </producedTypes>
+  <name>ВажностьПисем</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

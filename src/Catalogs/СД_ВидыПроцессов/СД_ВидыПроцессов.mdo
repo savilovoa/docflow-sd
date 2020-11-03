@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39728505-8175-4b68-b05f-13b49f39ef4b" extendedConfigurationObject="497a054a-5768-4b3f-8d5e-d505f7526091">
+  <producedTypes>
+    <objectType typeId="a6e2c3b5-59a7-44a6-9641-7f3a616fb0ce" valueTypeId="98b76061-61b5-4a85-9280-0202824dff53"/>
+    <refType typeId="9fd28a75-f8ef-4aef-b7b3-82f0479d4af3" valueTypeId="7a96b2f5-9a8d-4ceb-a40b-e1d9cc8e4334"/>
+    <selectionType typeId="7480c340-a05e-4894-baa7-a14e12fe451c" valueTypeId="b3a3708d-7ff2-45cf-9f10-39087dc8ea90"/>
+    <listType typeId="57820a33-ce10-4a14-97b4-a291e1d63388" valueTypeId="84e1fc89-57a5-4b80-9839-4ea030f6fc7f"/>
+    <managerType typeId="fc9c8740-6685-470c-a3d4-c901473d6a8d" valueTypeId="5b25109d-6c1f-43f2-b8fb-ff0a1d53304e"/>
+  </producedTypes>
+  <name>СД_ВидыПроцессов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

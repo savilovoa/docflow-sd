@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0cb1d447-c164-4daa-8528-99fc05628877" extendedConfigurationObject="7fc73bb1-5f9d-4b95-b723-f9c5846b05ed">
+  <name>СД_НастройкаОформленияИзФормы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <group>Checked</group>
+  </extension>
+  <group>FormCommandBarImportant</group>
+</mdclass:CommonCommand>

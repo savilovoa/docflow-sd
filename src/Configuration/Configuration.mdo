@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eeeb482a-4cee-4911-918f-bbfa0055b6c7">
+  <name>Ч_СервисДеск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ч сервис деск</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2bc8e0eb-0b70-4c1a-ae75-72e4dd75f78c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9f74feb8-5036-4539-a3b5-a7d180ab1eef"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6cb69a80-2955-468c-98e0-868db185ad6d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="118ffbef-540a-4ffc-a4d4-481295a034f4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9b1f804f-9e7f-4688-8892-bfdd58e0c4bf"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6ea081f4-b4d7-4ce1-bd61-3b2ea1d1b2f8"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ЧСД_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ЧСД_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="5a1b10a7-d624-4c2c-8b18-b5aeb4eb0441" extendedConfigurationObject="7c9bc131-bc25-474d-979f-b84ebdb2145c">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ФайлЗанятыйДругимПользователем</styleItems>
+  <styleItems>StyleItem.НеЗаполненныйПредмет</styleItems>
+  <styleItems>StyleItem.ЦветВысокойВажности</styleItems>
+  <styleItems>StyleItem.ОтметкаПоложительногоВыполненияЗадачи</styleItems>
+  <styleItems>StyleItem.ФайлЗанятыйТекущимПользователем</styleItems>
+  <styleItems>StyleItem.ПросроченныеДанныеЦвет</styleItems>
+  <styleItems>StyleItem.ВажныеЗадачиИБизнесПроцессыШрифт</styleItems>
+  <commonPictures>CommonPicture.СД_СобытияПроцесса</commonPictures>
+  <commonPictures>CommonPicture.ПустойФлаг</commonPictures>
+  <commonPictures>CommonPicture.Скрепка</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <roles>Role.ЧСД_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.СД_ИнтернетШлюзСервер</commonModules>
+  <commonModules>CommonModule.СД_ОбщееВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСУведомлениями</commonModules>
+  <definedTypes>DefinedType.Подразделение</definedTypes>
+  <commonCommands>CommonCommand.ОтправитьОбъекты</commonCommands>
+  <commonCommands>CommonCommand.СД_НастройкаОформленияИзФормы</commonCommands>
+  <catalogs>Catalog.СД_Сервисы</catalogs>
+  <catalogs>Catalog.СД_ВидыЗаявок</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.СД_ОборудованиеПредприятия</catalogs>
+  <catalogs>Catalog.СД_ВидыПроцессов</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СД_ШаблоныПисем</catalogs>
+  <catalogs>Catalog.СД_Приоритет</catalogs>
+  <catalogs>Catalog.СД_МониторингЭлПочты</catalogs>
+  <catalogs>Catalog.АдресатыПочтовыхСообщений</catalogs>
+  <catalogs>Catalog.ВидыБизнесСобытий</catalogs>
+  <documents>Document.СД_Заявка</documents>
+  <documents>Document.СД_ПроблемаИнцидент</documents>
+  <documents>Document.ВходящееПисьмо</documents>
+  <documents>Document.СД_Решение</documents>
+  <enums>Enum.СД_СпособыСоздания</enums>
+  <enums>Enum.Ч_ТипыЗаявокСД</enums>
+  <enums>Enum.ВажностьПисем</enums>
+  <enums>Enum.ТипыТекстовПочтовыхСообщений</enums>
+  <enums>Enum.СпособыУведомления</enums>
+  <enums>Enum.СД_СтатусыЗаявок</enums>
+  <informationRegisters>InformationRegister.СведенияОПрочтении</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьУведомлений</informationRegisters>
+  <informationRegisters>InformationRegister.СД_СвязьСЗадачами</informationRegisters>
+  <informationRegisters>InformationRegister.СД_ПараметрыЗаявок</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СД_ПараметрыЗаявок</chartsOfCharacteristicTypes>
+  <businessProcesses>BusinessProcess.СД_Процесс</businessProcesses>
+  <tasks>Task.ЗадачаИсполнителя</tasks>
+</mdclass:Configuration>

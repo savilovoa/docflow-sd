@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cec5d158-7b68-40c6-ba73-a16488068e66" extendedConfigurationObject="4e563ab8-0bdb-41e4-81d0-c03cd64d25cd">
+  <producedTypes>
+    <objectType typeId="5b07aaea-25ee-4474-a956-c1405426c573" valueTypeId="16ba152c-fa89-46b2-92b3-eeebbc11ca4f"/>
+    <refType typeId="4e85f76b-5d8c-40bd-b4d6-072a3ba0e0b1" valueTypeId="d6a95941-84ff-45ce-9a9e-b8fe1c11e2d9"/>
+    <selectionType typeId="99a9cca2-f989-4634-8d34-981c0472188d" valueTypeId="b2975791-a0b8-403a-ab90-e156761db19f"/>
+    <listType typeId="d48c95f0-6dd7-477a-afcd-60b12d04d949" valueTypeId="585e609f-c5e6-4666-b720-374dab2918a0"/>
+    <managerType typeId="d293b497-2539-441d-ae3b-93b558ca97d7" valueTypeId="6ff84162-166d-4b01-91b4-658c8de4de44"/>
+  </producedTypes>
+  <name>СД_Решение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <numberType>Checked</numberType>
+    <numberLength>Checked</numberLength>
+    <numberAllowedLength>Checked</numberAllowedLength>
+  </extension>
+  <numberType>String</numberType>
+  <numberLength>5</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <attributes uuid="5b7dc75a-a89a-4d5d-8fe8-181fbe8cb303" extendedConfigurationObject="374a73c0-8dbb-40a3-ab9c-9ccbbb7606ca">
+    <name>Заявка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DocumentRef.СД_Заявка</types>
+    </type>
+  </attributes>
+  <attributes uuid="61c53dec-56b5-4042-bb34-606cf3e3ae46" extendedConfigurationObject="3d4e4238-0c03-4a83-bea5-4c89b4b16490">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="16a38622-482a-4ad3-9a22-d0fdff6b32fc" extendedConfigurationObject="2d67b1c9-8e01-4d59-ba84-cf58126dddc9">
+    <name>Проект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+  </attributes>
+  <attributes uuid="39dc5c62-dfa4-49b4-afb4-7e71eaf9287d" extendedConfigurationObject="b0e92f9d-493f-4133-bb14-24268d71da8d">
+    <name>Автор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </attributes>
+  <attributes uuid="1ba18df0-5594-478b-88f5-08e34ffee820" extendedConfigurationObject="773ad657-a817-41bb-8f20-9a6149bc5053">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DefinedType.Подразделение</types>
+    </type>
+  </attributes>
+  <forms uuid="df401784-882c-4f29-bebd-47fad20cb490" extendedConfigurationObject="6e665c72-7088-4788-b9de-2be2e92857aa">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

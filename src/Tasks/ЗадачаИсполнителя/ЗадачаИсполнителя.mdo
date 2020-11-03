@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="41920e77-6466-4cf4-a868-b00c79d85b45" extendedConfigurationObject="3ad08f4a-6202-4099-b6cc-bc116e6731a0">
+  <producedTypes>
+    <objectType typeId="facfec62-8707-47b3-bc55-10e72a866d56" valueTypeId="63e22d3c-15be-4c95-99cc-0e11d486b914"/>
+    <refType typeId="56413329-5eab-47a1-b54e-a5d321462e62" valueTypeId="bf58f4df-9e7a-4cd3-b9ad-57445e324624"/>
+    <selectionType typeId="bd750ed0-b57d-4526-9566-108cec8a000c" valueTypeId="a5128045-132a-4db1-a572-07e544ddb490"/>
+    <listType typeId="4bc4ece4-7100-470e-84a3-0b75c0fbc3e5" valueTypeId="1145bf84-a389-439d-9021-75ffb382aa7d"/>
+    <managerType typeId="0f7afd40-70f0-4e0a-b570-72f231681d28" valueTypeId="e249715d-8be9-43fa-bf9a-3055d33980e1"/>
+  </producedTypes>
+  <name>ЗадачаИсполнителя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:TaskExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="806feec9-a8e8-4d0c-8337-d6908b2ee492" extendedConfigurationObject="02466dcf-02a1-4853-814f-a913a9baba45">
+    <name>РезультатВыполнения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+</mdclass:Task>

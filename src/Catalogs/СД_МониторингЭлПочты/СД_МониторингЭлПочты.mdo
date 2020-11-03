@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2c92e84c-7350-44d6-9cbc-f97bc982af84" extendedConfigurationObject="9791f115-b44a-437a-835a-2356a0c2d71a">
+  <producedTypes>
+    <objectType typeId="e48f3888-3736-4fec-8803-cd95718a8e90" valueTypeId="2e5edbf8-fec2-4c2f-a04d-e5450a2cfa4e"/>
+    <refType typeId="352af8df-d6a8-49b6-a93f-8bf8b8b64490" valueTypeId="ae2da71c-f6ef-40fa-bf85-15f9c6688cdf"/>
+    <selectionType typeId="2f477b79-49ff-4184-b3a0-e3bc2c818e15" valueTypeId="8df8aa29-f2fa-48ed-9572-1b40c0272a8a"/>
+    <listType typeId="214f84da-6657-4f44-899a-bb0c18d0bab7" valueTypeId="a4240da9-ad64-4714-bec6-b80f43ae45b2"/>
+    <managerType typeId="c4a198b1-486f-420d-a220-170ea5276e12" valueTypeId="f37a8dcd-84ee-4e16-8e6c-8d1e9643724f"/>
+  </producedTypes>
+  <name>СД_МониторингЭлПочты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="09f8f296-209b-44cb-9eae-d280c0c89573" extendedConfigurationObject="8a403087-f544-4376-ad34-ccee9ba0f035">
+    <name>УчетнаяЗаписьПриемаЭлПочты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+  </attributes>
+  <attributes uuid="b7c48007-6498-4dc9-a814-38503847b8bb" extendedConfigurationObject="f6505e8b-5e6b-4657-b788-cceb7b563726">
+    <name>СервисТехПоддержки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.СД_Сервисы</types>
+    </type>
+  </attributes>
+  <attributes uuid="d652055c-df31-4dbb-9beb-8423ac91205e" extendedConfigurationObject="7a50971f-fa56-4a78-b088-41528f247aba">
+    <name>Приоритет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="49b394f5-388c-48c2-b72f-b3f5b307461d" extendedConfigurationObject="bb9c6721-6295-416b-93d4-50a764f181c4">
+    <name>Включен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <forms uuid="e6e4120f-94e4-44d3-af91-401a8bad2480" extendedConfigurationObject="79e462df-499f-4f8f-9059-86f191c4318b">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

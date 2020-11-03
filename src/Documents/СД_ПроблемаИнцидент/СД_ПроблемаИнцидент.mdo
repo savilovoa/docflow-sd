@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="57fb1085-f65c-408e-9f71-e10cae63ea21" extendedConfigurationObject="af6b3184-7abb-4f20-8074-5eb45afd9ed6">
+  <producedTypes>
+    <objectType typeId="2b5be925-ca37-4e16-8326-2e836671e3a0" valueTypeId="2635bf88-28a1-4015-a9b6-14c385a4098b"/>
+    <refType typeId="f1e02e12-d778-454a-a655-7936fc736c10" valueTypeId="b4669e86-5e2f-4ad6-99e1-3cd8cf8a42ed"/>
+    <selectionType typeId="d6c3a4c1-7e2c-4bd4-bb5d-9bff3944edab" valueTypeId="eb5a3a45-fe45-4491-81fc-de29e40cbc0e"/>
+    <listType typeId="ee138e98-e446-4d54-925a-1878f321dc20" valueTypeId="a0ef872d-b8af-4c61-bfba-4fc959466034"/>
+    <managerType typeId="b03f79ad-17b0-46ba-9764-f0ff84ebfd64" valueTypeId="aa2cd306-fd63-46ca-a4c9-b346a4c54abb"/>
+  </producedTypes>
+  <name>СД_ПроблемаИнцидент</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

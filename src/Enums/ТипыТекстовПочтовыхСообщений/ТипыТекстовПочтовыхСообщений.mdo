@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a005dd50-4630-40f7-aa6f-f9a770e7e442" extendedConfigurationObject="e7c7dbf5-5bd3-4bde-9c6b-619e9ce210e9">
+  <producedTypes>
+    <refType typeId="84c745ce-f579-4e81-a6f1-1fa2c17b28ce" valueTypeId="adbb095e-1c48-4b34-bbb6-e19376474d92"/>
+    <listType typeId="53b73dd0-7a65-4024-92b2-af70e0bc5d36" valueTypeId="a9ebb228-3963-4ea2-8d68-5098262de4ec"/>
+    <managerType typeId="f31d6111-e4e8-405e-9479-86bb220bf5c2" valueTypeId="306831ec-5c85-44ac-92ae-91bc5d256f2c"/>
+  </producedTypes>
+  <name>ТипыТекстовПочтовыхСообщений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="7e1f1f6e-9413-448d-ab4f-158eb018cac0" extendedConfigurationObject="867deec6-1180-4f91-b6e0-ca0072776d06">
+    <name>ПростойТекст</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="a0de880e-9701-494f-9f1a-95d5378b1ab6" extendedConfigurationObject="641ed845-b9f2-4b79-9b04-519e11033b6a">
+    <name>HTML</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="3d22fe80-5469-49bd-bde5-cdc53b14f983" extendedConfigurationObject="4401d66a-ee6d-4e45-a9b0-a9caf8244690">
+    <name>РазмеченныйТекст</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

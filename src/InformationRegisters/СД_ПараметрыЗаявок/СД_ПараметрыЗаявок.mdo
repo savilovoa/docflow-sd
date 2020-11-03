@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d7f28518-4e06-40db-b215-6af8752f207a" extendedConfigurationObject="16514a81-a9f2-4b58-a555-5f1b831bc014">
+  <producedTypes>
+    <selectionType typeId="fe7bb120-a93b-410b-b3b9-a46debb6edb5" valueTypeId="533bc496-04fe-4e5c-873e-3e3faa3af91b"/>
+    <listType typeId="9d870d39-9da2-4868-88e6-aefafb219fab" valueTypeId="825cecfc-3a82-40d9-aad5-7f2cd5c5460b"/>
+    <managerType typeId="d5b39009-a7c5-4849-bcb4-de6bcb1b1ea1" valueTypeId="03914406-5f73-4208-be6f-fb6f00d8aaf7"/>
+    <recordSetType typeId="9424a173-89cc-451c-9ab8-9bf32270931d" valueTypeId="09be2c32-7ccf-4578-ac3e-32ee77c7af78"/>
+    <recordKeyType typeId="5c8d13b3-2396-4687-8377-6ed86e714a6d" valueTypeId="fcbae0a6-378c-4b37-9ae3-80ea5d4aa828"/>
+    <recordType typeId="ba06fee9-61c3-411a-8cfd-5f1d75e16cb5" valueTypeId="b5c144a3-1acc-4d55-92d3-4f7037381d55"/>
+    <recordManagerType typeId="a6e931de-8a07-40f6-9c79-4363c767720b" valueTypeId="ac20709b-a107-4dff-bb5d-d5500553bae0"/>
+  </producedTypes>
+  <name>СД_ПараметрыЗаявок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <resources uuid="638d87a3-054b-44ca-a143-0cf0a2ae2efa" extendedConfigurationObject="cd8ff465-433f-4be0-8240-0612861308f3">
+    <name>ЗначениеПараметра</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Characteristic.СД_ПараметрыЗаявок</types>
+    </type>
+  </resources>
+  <dimensions uuid="b6ecfad8-f30d-4994-8a64-651433af5637" extendedConfigurationObject="b1996d7d-951d-4cb6-bc78-d0747c2c6125">
+    <name>Заявка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DocumentRef.СД_Заявка</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="88e66a52-a19b-469d-8a0b-43b616a202fd" extendedConfigurationObject="0d2e0fe2-e9e3-4237-9a9d-7e7bcb4443f0">
+    <name>ПараметрЗаявки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СД_ПараметрыЗаявок</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2fcb8474-1652-424a-8527-38ea3dc77df2" extendedConfigurationObject="f807aa71-443d-46de-9f9f-d28ea4d66cce">
+  <producedTypes>
+    <selectionType typeId="4db1e1df-3a21-4d47-a324-ef79b669a3f9" valueTypeId="e7bda798-15e4-496b-8fb0-1a5388e6bc0c"/>
+    <listType typeId="2bb530e2-195b-4a86-a96e-ec59eb5a1d34" valueTypeId="6ea206a8-f5e7-4bd1-a964-3b936d656ffd"/>
+    <managerType typeId="c167887f-9551-44d8-8dd2-34ac05265520" valueTypeId="29bcffc0-59f2-45c7-a051-9aa01c71f969"/>
+    <recordSetType typeId="73e76f0a-c88b-4641-8950-c1f228f75887" valueTypeId="b46d064c-a96b-42a4-a89f-0c14e22724e8"/>
+    <recordKeyType typeId="5f50b1c0-7484-46f7-9faa-b3ab6857c711" valueTypeId="7407c900-af54-417a-90b2-dd125292f03a"/>
+    <recordType typeId="a0297557-5d35-4b4d-bfa8-fd9530708a18" valueTypeId="f5ff8807-c975-4249-82fd-4e75310fb712"/>
+    <recordManagerType typeId="3502e5c0-2b1d-4279-9667-e932061dec70" valueTypeId="808e3964-2868-4040-a4ba-56514aded4fd"/>
+  </producedTypes>
+  <name>СД_СвязьСЗадачами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="1efe6421-beb1-4d87-99c7-aa8cc1a5efdd" extendedConfigurationObject="9406a302-87c4-4c43-b381-5377095c4ec3">
+    <name>Задача</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>TaskRef.ЗадачаИсполнителя</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="cafadd0f-ef17-47b1-a12c-f9b314735be0" extendedConfigurationObject="477dcebf-96d7-4cee-a29b-d2bb71f0a53f">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>AnyRef</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

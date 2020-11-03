@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bd5d09d6-a812-46c4-9afe-2fdf6208d027" extendedConfigurationObject="b6716f4a-348e-4a6a-9ac3-66592a067a58">
+  <producedTypes>
+    <objectType typeId="2000aa61-89f3-433e-8f85-7b102c80dbdd" valueTypeId="e5afec37-f8bd-43e9-b2e4-26e25eaeab7b"/>
+    <refType typeId="e0b51dd0-2dec-468b-94fb-8e8e2a5d95b8" valueTypeId="7526c8d5-786a-46db-98a5-ae7eb36cc48f"/>
+    <selectionType typeId="80004840-e85d-471d-b62d-fe17dfddf3fd" valueTypeId="53e0c1bd-8fdd-48bb-95c3-9f5f844f9df1"/>
+    <listType typeId="c9d02893-1449-4d82-a16c-4e12565cebde" valueTypeId="ee1fe9f1-7024-47f8-9533-554894e8eb75"/>
+    <managerType typeId="b379521b-8d16-4fa7-a134-09e105637e2b" valueTypeId="fa2f5b7e-bb9e-4190-ba7a-01b232e34e64"/>
+  </producedTypes>
+  <name>ВидыБизнесСобытий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="904f03b2-e444-40d4-a88d-25930036b88b">
+      <name>СозданиеВходящегоДокумента</name>
+      <description>Создание входящего документа</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>
